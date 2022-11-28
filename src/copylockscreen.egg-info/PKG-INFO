@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: copylockscreen
+Version: 0.1.0
+Summary: Copy Windows lock screen wallpapers
+Author-email: Mauricio Falck <mcfalck@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CopyLockScreen
+
+This package reads the wallpaper images available from Windows Spotlight service and saves it to a specified folder.

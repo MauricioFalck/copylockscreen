@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/copylockscreen/__init__.py
+src/copylockscreen/__main__.py
+src/copylockscreen/dup_check.py
+src/copylockscreen/fetch_img.py
+src/copylockscreen/logger.py
+src/copylockscreen/save_img.py
+src/copylockscreen/wallpaper.py
+src/copylockscreen.egg-info/PKG-INFO
+src/copylockscreen.egg-info/SOURCES.txt
+src/copylockscreen.egg-info/dependency_links.txt
+src/copylockscreen.egg-info/top_level.txt

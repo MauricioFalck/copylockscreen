@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copylockscreen"
+version = "0.0.3"
+authors = [
+  { name="Mauricio Falck", email="mcfalck@gmail.com" },
+]
+description = "Copy Windows lock screen wallpapers"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MauricioFalck/copylockscreen"
+"Bug Tracker" = "https://github.com/MauricioFalck/copylockscreen/issues"
