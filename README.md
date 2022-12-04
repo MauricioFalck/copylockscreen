@@ -8,7 +8,7 @@ The Windows Spotlight service is an application that defines the lock screen of 
 
 ## How to install
 
-The module is only published to testpy till now. To install it:
+The module is only published to testpy for now. To install it:
 
 > python -m pip install --index-url https://test.pypi.org/simple/ copylockscreen
 
