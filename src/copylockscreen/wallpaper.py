@@ -10,18 +10,20 @@ class ImageType(Enum):
 
 
 class WallpaperImage:
-    """
-    The object that represents a wallpaper image.
-
-    Args:
-        filename: the full path of te image to be parsed
-
-    Throws:
-        UnidentifiedImageError
-
+    """The object that represents a wallpaper image
     """
 
     def __init__(self, filename: str):
+        """The constructor of a Wallpaper Image
+
+        Args:
+            filename (str): the full path of te image to be parsed
+
+        Raises:
+            e: UnidentifiedImageError in case the image provided is not valid
+
+        """
+
         self.src_path = filename
         # The filename of the file, without the path
         self.src_filename = Path(filename).name

@@ -6,12 +6,12 @@ from copylockscreen.logger import log
 
 
 def save(wallpaper: WallpaperImage):
-    """
-    Saves the wallpaper to the destination directory defined
+    """Saves the wallpaper to the destination directory defined
 
     Args:
-        wallpaper: the wallpaper image to be copied
+        wallpaper (WallpaperImage): the wallpaper image to be copied
     """
+
     if (wallpaper.type == ImageType.LANDSCAPE):
         final_path = path.join(
             DESTINATION_PATH, 'Landscape', wallpaper.src_filename + '.' + wallpaper.extension)

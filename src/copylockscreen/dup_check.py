@@ -10,10 +10,10 @@ def is_duplicated(wallpaper: WallpaperImage):
     """
     Checks if the wallpaper is already in the DESTINATION.
     If the DUP_MODE is FALSE, it only checks for file duplication using the name.
-    If the DUP_MODE is TRUE, it compares the images in every pixel. 
+    If the DUP_MODE is TRUE, it compares the images in every pixel.
 
     Args:
-        wallpaper: The wallpaper image to be compared
+        wallpaper(WallpaperImage): The wallpaper image to be compared
 
     Returns:
         bool: TRUE if duplicated, FALSE if not

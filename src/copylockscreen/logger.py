@@ -2,18 +2,15 @@ from os import path, environ
 from datetime import datetime
 
 
-def log(message, level=1, dbg_level=False):
-    """
-    Logs a message to a log file
+def log(message: str, level: int = 1, dbg_level: bool = False):
+    """Construct the full path of the log file
 
     Args:
-        message: The message to be logged
-        level: The debug level (0 for INFO, 1 for DEBUG)
-        dbg_level: The debug level to be considered. 
-        If dbg_level is 0 (INFO), a message with level = 1 (DEBUG) is not printed
-
+        message (str): The message to be logged
+        level (int, optional): The debug level (0 for INFO, 1 for DEBUG). Defaults to 1.
+        dbg_level (bool, optional): The debug level to be considered.
+        If dbg_level is 0 (False), a message with level = 1 is not printed. Defaults to False.
     """
-    # Construct the full path of the log file
     log_file = path.join(environ.get('TEMP'), 'log_cp_spotlight.txt')
 
     with open(log_file, 'a') as file:

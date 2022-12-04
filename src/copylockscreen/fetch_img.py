@@ -5,13 +5,12 @@ from copylockscreen.logger import log
 
 
 def get_images():
-    """
-    Retrieves the valid wallpaper images from the Windows spotlight folder as a list of WallpaperImage
+    """Retrieves the valid wallpaper images from the Windows spotlight folder as a list of WallpaperImage
 
     Returns:
         list[WallpaperImage]: The list of the images
-
     """
+
     invalid_files = 0
     list_images = []
     # Get the list of files in the directory
